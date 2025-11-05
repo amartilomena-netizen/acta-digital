@@ -1,5 +1,5 @@
 import streamlit as st
-st.titlev("acta digital)
+st.titlev("acta digital")
           
 st.write ("tu primera app")
 
