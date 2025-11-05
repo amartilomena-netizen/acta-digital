@@ -1,12 +1,7 @@
 import streamlit as st
-st.title("acta digital")       
-st.write ("tu primera app")
-
 import hashlib, time, json
-st.set_page_config(page_title="Acta Digital - Prompt2", layout="centered")
-st.write("Ejemplo de uso de las librerías importadas:")
 
-
+# Prompt 3 — Crear función de hash
 def get_hash(text):
     return hashlib.sha256(text.encode()).hexdigest()
 
@@ -25,5 +20,7 @@ if st.button("Generar hash"):
     # Mostrar también el resultado en formato JSON
     resultado = {"texto": texto, "hash": h, "timestamp": time.time()}
     st.json(resultado)
+
+
 
 
