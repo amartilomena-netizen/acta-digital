@@ -1,6 +1,5 @@
 import streamlit as st
-st.titlev("acta digital")
-          
+st.title("acta digital")       
 st.write ("tu primera app")
 
 import hashlib, time, json
