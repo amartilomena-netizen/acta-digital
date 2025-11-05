@@ -1,6 +1,8 @@
-st.titlev("acta digital)
-st.write ("tu primera app")
 import streamlit as st
+st.titlev("acta digital)
+          
+st.write ("tu primera app")
+
 import hashlib, time, json
 st.set_page_config(page_title="Acta Digital - Prompt2", layout="centered")
 st.title("Acta Digital — Prompt 2")
